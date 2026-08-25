@@ -3,15 +3,10 @@ import { useState, useEffect } from "react";
 const TEXTO = "developer_junior — aprendiendo cada día ✦";
 
 function Hero() {
-  // useState guarda un valor que, al cambiar, hace que React
-  // vuelva a dibujar el componente automáticamente.
-  // (En el proyecto vanilla JS esto lo hacíamos "a mano" con render())
+
   const [textoEscrito, setTextoEscrito] = useState("");
 
-  // useEffect corre código con "efectos secundarios" — acá,
-  // un setTimeout que va agregando letras una por una.
-  // El array vacío [] al final significa "correr esto una sola
-  // vez, cuando el componente aparece en pantalla".
+
   useEffect(() => {
     let index = 0;
 
