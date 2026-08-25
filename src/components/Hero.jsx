@@ -48,7 +48,7 @@ function Hero() {
         <p className="eyebrow">// disponible para nuevos proyectos</p>
         <h1>
           Hola, soy <span className="accent">Thiago Coronel</span>.<br />
-          Desarollador FullStack.
+          Desarrollador FullStack.
         </h1>
         <p className="hero__sub">
           Desarrollador FullStack en formación. Me gusta convertir problemas reales en interfaces simples y código prolijo.
