@@ -8,7 +8,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     {/* BrowserRouter tiene que envolver a App para que
         useParams, Link, Routes, etc. funcionen en cualquier parte */}
-    <BrowserRouter>
+        <BrowserRouter basename="/portfolio-react">
       <App />
     </BrowserRouter>
   </StrictMode>
