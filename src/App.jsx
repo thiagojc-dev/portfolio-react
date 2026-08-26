@@ -4,13 +4,16 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import ProjectDetail from "./pages/ProjectDetail";
+import ScrollToHash from "./components/ScrollToHash";
 
 function App() {
-  
+
   const [menuAbierto, setMenuAbierto] = useState(false);
 
   return (
     <>
+      <ScrollToHash />
+
       <Navbar
         menuAbierto={menuAbierto}
         onToggleMenu={() => setMenuAbierto(!menuAbierto)}
