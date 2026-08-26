@@ -1,15 +1,11 @@
 import { useParams, Link, Navigate } from "react-router-dom";
 import { proyectos } from "../data/proyectos";
 
-// useParams lee el segmento dinámico de la URL.
-// Si la ruta es "/proyectos/todo-list", useParams()
-// devuelve { id: "todo-list" }.
+
 function ProjectDetail() {
   const { id } = useParams();
   const proyecto = proyectos.find((p) => p.id === id);
 
-  // Si alguien entra a una URL con un id que no existe,
-  // lo mandamos de vuelta al home en vez de romper la página.
   if (!proyecto) {
     return <Navigate to="/" replace />;
   }
