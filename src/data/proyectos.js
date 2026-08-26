@@ -1,6 +1,17 @@
 
 export const proyectos = [
   {
+    id: "todo-react",
+    tag: "FullStack",
+    titulo: "To-Do List FullStack",
+    descripcionCorta: "Lista de tareas con backend propio, base de datos real y deploy en producción.",
+    descripcionLarga:
+      "Versión FullStack del to-do list clásico: frontend en React consumiendo una API REST propia (Node.js + Express), con persistencia real en MongoDB Atlas en vez de localStorage. Incluye manejo de estados de carga y error, y está deployado de punta a punta: frontend en GitHub Pages, backend en Render, base de datos en la nube.",
+    demo: "https://thiagojc-dev.github.io/todo-react/",
+    codigo: "https://github.com/thiagojc-dev/todo-react",
+    stack: ["React", "Node.js", "Express", "MongoDB", "Mongoose"],
+  },
+  {
     id: "todo-list",
     tag: "Vanilla JS",
     titulo: "To-Do List",
